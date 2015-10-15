@@ -74,6 +74,19 @@ public class Triqui {
             activo = false;
             return valorColumna2;
         }
+
+        int valorDiagonal1 = chequearDiagonal1();
+        if (valorDiagonal1 != 0) {
+            activo = false;
+            return valorDiagonal1;
+        }
+
+        int valorDiagonal2 = chequearDiagonal2();
+        if (valorDiagonal2 != 0) {
+            activo = false;
+            return valorDiagonal2;
+        }
+
         return 0;
     }
 
@@ -87,6 +100,22 @@ public class Triqui {
     private int chequearColumna(int i) {
         if (tablero[0][i] == tablero[1][i] && tablero[0][i] == tablero[2][i]) {
             return tablero[0][i];
+        }
+        return 0;
+    }
+
+    private int chequearDiagonal1() {
+
+        if (tablero[0][0] == tablero[1][1] && tablero[0][0] == tablero[2][2]) {
+            return tablero[0][0];
+        }
+        return 0;
+    }
+
+    private int chequearDiagonal2() {
+
+        if (tablero[0][2] == tablero[1][1] && tablero[0][2] == tablero[2][0]) {
+            return tablero[0][2];
         }
         return 0;
     }
