@@ -1,106 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".TriquiActivity"
-    tools:showIn="@layout/activity_triqui">
-
-    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_weight="1">
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".TriquiActivity"
+        tools:showIn="@layout/activity_triqui">
 
-        <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <Button
+                android:id="@+id/boton_1"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
 
 
         <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+                android:id="@+id/boton_2"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
 
         <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+                android:id="@+id/boton_3"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
 
 
     </LinearLayout>
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_weight="1">
-
-        <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:orientation="horizontal"
+            android:layout_weight="1">
 
         <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+                android:id="@+id/boton_4"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
 
         <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+                android:id="@+id/boton_5"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        <Button
+                android:id="@+id/boton_6"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
 
     </LinearLayout>
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_weight="1">
-
-        <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:orientation="horizontal"
+            android:layout_weight="1">
 
         <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+                android:id="@+id/boton_7"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
 
         <Button
-            android:onClick="laviejaListener"
-            android:textSize="60dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+                android:id="@+id/boton_8"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        <Button
+                android:id="@+id/boton_9"
+                android:onClick="laviejaListener"
+                android:textSize="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
 
     </LinearLayout>
 
